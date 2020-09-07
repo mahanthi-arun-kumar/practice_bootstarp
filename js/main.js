@@ -15,7 +15,7 @@ $(document).ready(function () {
         //     $grid.isotope('layout');
         //   });
         var $grid = $('.grid').imagesLoaded( function() {
-            $grid=  $(' .grid').isotope({
+             $grid.isotope({
                 filter: selector
             });
 
