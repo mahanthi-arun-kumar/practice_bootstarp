@@ -10,7 +10,7 @@ $(document).ready(function () {
         e.target.classList.add('active');
 
         let selector = $(e.target).attr('data-filter');
-      var grid=  $('.project-area .grid').isotope({
+      var $grid=  $('.project-area .grid').isotope({
             filter: selector
         });
         $grid.imagesLoaded().progress( function() {
